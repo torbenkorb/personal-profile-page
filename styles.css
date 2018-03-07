@@ -130,7 +130,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
-  flex-grow: 1;
+  flex: 0 0 100%;
 }
 .card:hover {
   border-color: #aaa;
@@ -157,7 +157,7 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 40px 0;
 }
 
 footer .copyright {
@@ -179,7 +179,7 @@ footer ul li {
 a.social {
   display: inline-block;
   text-indent: -9999px;
-  margin-left: 5px;
+  margin: 0 3px;
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
