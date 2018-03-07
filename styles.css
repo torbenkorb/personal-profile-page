@@ -11,6 +11,19 @@ body {
   color: rgba(0,0,0,0.87);
   background: #f7f5f0;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: .75em;
+  font-style: italic;
+  color: rgba(0,0,0,0.54);
+}
 
 h2 {
   text-transform: uppercase;
@@ -65,6 +78,7 @@ a:hover {
 header {
   text-align: center;
   background: url('images/background.svg') repeat-x bottom center ;
+  background-color: #97c03e;
   overflow: hidden;
   padding-top: 60px;
 }
